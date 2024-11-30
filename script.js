@@ -3,11 +3,13 @@ function eo(x) {
 }
 
 function showSteps() {
+  // taking number to calculate steps
   var num = parseInt(document.getElementById("number").value);
+  // taking password
   var pass = parseInt(document.getElementById("password").value);
   var output = document.getElementById("output");
   var html = "";
-
+  // checking is password is correct or not
   if (pass === 2007) {
     var c = 0;
 
